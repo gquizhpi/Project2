@@ -1,0 +1,106 @@
+/* Giovanni Quizhpi - ITMD 361 - Project 2 */
+
+ 
+
+/*Body and overall layout */
+body {
+  background-color: #f4f8fb;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page wrapper for fluid layout */
+#page-wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  background-color: #004080;
+  color: white;
+  padding: 1em 0;
+  border-radius: 10px;
+}
+
+/* 4Headings */
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+}
+h3 {
+  font-style: italic;
+  color: #dfe8ff;
+  margin-top: 0;
+}
+
+/* NAVIGATION*/
+
+/* Centered horizontal nav */
+#main-nav ul {
+  list-style-type: none;      /* removes bullets */
+  text-align: center;
+  background-color: #0066cc;
+  padding: 0.5em 0;
+  margin: 0;
+  border-radius: 5px;
+}
+
+#main-nav li {
+  display: inline-block;       /* makes nav horizontal */
+  margin: 0 15px;
+}
+
+#main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5em;
+  transition: background-color 0.3s;
+}
+
+#main-nav a:hover {
+  background-color: #003366;   /* hover effect */
+  border-radius: 4px;
+}
+
+/* ===============================
+   MAIN CONTENT
+   =============================== */
+
+main {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5em;
+  margin-top: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* FOOTER*/
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #004080;
+  color: white;
+  border-radius: 10px;
+  margin-top: 1em;
+}
